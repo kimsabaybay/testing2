@@ -1,0 +1,5 @@
+PageObjects\DemoLoginPage.class
+Utilities\BaseClass.class
+Managers\ExtentTestNGTestListener.class
+PageObjects\DemoRegisterFormPage.class
+Utilities\TestUtils.class

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+    <test name="TestName1">
+        <classes>
+            <class name="com.DemoLogin.FillFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TestName2">
+        <classes>
+            <class name="com.DemoLogin.BaseClassTest"/>
+        </classes>
+    </test>
+
+    <test name="TestName3">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.DemoLogin.BaseClassTest1"/>
+        </classes>
+    </test>
+</suite>
+
