@@ -1,19 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SuiteName">
-    <test name="TestName1">
+    <test name="FillFormTest">
+        <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="com.DemoLogin.FillFormTest"/>
         </classes>
     </test>
 
-    <test name="TestName2">
+    <test name="BaseClassTest">
+        <parameter name="browser" value="Edge"/>
         <classes>
             <class name="com.DemoLogin.BaseClassTest"/>
         </classes>
     </test>
 
-    <test name="TestName3">
-        <parameter name="browser" value="Chrome"></parameter>
+    <test name="BaseClassTest1">
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="com.DemoLogin.BaseClassTest1"/>
         </classes>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SuiteName]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="TestName2(failed)" verbose="0">
+  <test thread-count="5" name="BaseClassTest(failed)" verbose="0">
+    <parameter name="browser" value="Edge"/>
     <classes>
       <class name="com.DemoLogin.BaseClassTest">
         <methods>
@@ -12,5 +13,18 @@
         </methods>
       </class> <!-- com.DemoLogin.BaseClassTest -->
     </classes>
-  </test> <!-- TestName2(failed) -->
+  </test> <!-- BaseClassTest(failed) -->
+  <test thread-count="5" name="BaseClassTest1(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.DemoLogin.BaseClassTest1">
+        <methods>
+          <include name="myTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DemoLogin.BaseClassTest1 -->
+    </classes>
+  </test> <!-- BaseClassTest1(failed) -->
 </suite> <!-- Failed suite [SuiteName] -->
