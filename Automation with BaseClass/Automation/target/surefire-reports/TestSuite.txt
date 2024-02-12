@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 43.613 s <<< FAILURE! - in TestSuite
-com.DemoLogin.BaseClassTest.myTest  Time elapsed: 6.785 s  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 80.904 s <<< FAILURE! - in TestSuite
+com.DemoLogin.BaseClassTest.myTest  Time elapsed: 7.162 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at com.DemoLogin.BaseClassTest.myTest(BaseClassTest.java:18)
 
-com.DemoLogin.BaseClassTest1.myTest  Time elapsed: 1.868 s  <<< FAILURE!
-java.lang.AssertionError: expected [Privacy error] but found [google]
+com.DemoLogin.BaseClassTest1.myTest  Time elapsed: 12.601 s  <<< FAILURE!
+java.lang.AssertionError: expected [YouTube] but found [google]
 	at com.DemoLogin.BaseClassTest1.myTest(BaseClassTest1.java:13)
 

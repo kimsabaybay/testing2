@@ -23,21 +23,22 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.11.0</version>
+      <version>4.17.0</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
-      <version>5.4.1</version>
+      <version>5.6.3</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v115 -->
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v120 -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-devtools-v115</artifactId>
-      <version>4.11.0</version>
+      <artifactId>selenium-devtools-v120</artifactId>
+      <version>4.17.0</version>
     </dependency>
 
     <dependency>
